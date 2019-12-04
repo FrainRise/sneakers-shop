@@ -102,7 +102,7 @@ const cartReducer = (state = initState, action) => {
         }
   }
 
-  if(action.type=== 'SUB_SHIPPING'){
+  if(action.type === SUB_SHIPPING){
       return{
           ...state,
           total: state.total - 6
